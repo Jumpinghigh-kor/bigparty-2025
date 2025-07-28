@@ -1,0 +1,23 @@
+#footer {
+    background-color: #0C5FBA;
+}
+
+#footer .footer__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer .footer__inner p {
+    font-family: "Pretendard-bold";
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#footer .footer__inner img {
+    width: 70%;
+    height: auto;
+    display: block;
+}
