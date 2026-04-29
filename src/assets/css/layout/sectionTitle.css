@@ -1,0 +1,13 @@
+.section__title {
+  background: url("/images/background/header_bg.png") no-repeat center center;
+  background-size: cover;
+  height: 50vh;
+}
+
+.section__title h2 {
+  font-family: "pretendard-bold";
+  font-size: 1.8rem;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 210px 0;
+}

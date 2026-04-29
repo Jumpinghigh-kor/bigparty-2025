@@ -1,6 +1,9 @@
 #intro {
-  background-color: #0C5FBA;
   padding: 150px 0;
+  background-image: url("/images/background/intro_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .intro__inner {
@@ -24,34 +27,57 @@
   line-height: 1.4;
 }
 
-.intro__inner .intro__man_cont {
+.intro__inner .intro__btn_cont {
   width: 100%;
   margin-top: 150px;
+  padding: 0 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.intro__inner .intro__man_cont div {
+.intro__inner .intro__btn_cont div {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.intro__inner .intro__man_cont img {
-  width: 80%;
+.intro__inner .intro__btn_cont img {
+  width: 100%;
   height: auto;
   display: block;
 }
 
-.intro__inner .intro__man_cont p {
+.intro__inner .intro__btn_cont p {
   position: absolute;
-  top: 80%;
+  top: 83%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #FFFFFF;
   cursor: pointer;
   padding: 10px 20px;
   border-radius: 40px;
+}
+
+.intro__inner .intro__banner {
+  width: 100%;
+  margin-top: 300px;
+  padding: 0 50px;
+}
+
+.intro__inner .intro__banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.intro__inner .intro__bottom {
+  width: 100%;
+  margin-top: 300px;
+}
+
+.intro__inner .intro__bottom img {
+  width: 100%;
+  height: auto;
 }

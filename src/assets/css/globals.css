@@ -6,8 +6,10 @@
 /* layout */
 @import "layout/header.css";
 @import "layout/footer.css";
+@import "layout/sectionTitle.css";
 
 /* section */
-@import "section/banner.css";
 @import "section/intro.css";
-
+@import "section/overview.css";
+@import "section/welcome.css";
+@import "section/policy.css";
